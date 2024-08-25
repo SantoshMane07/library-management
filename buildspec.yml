@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java:corretto21
+      java: corretto21
   build:
     commands:
       - echo Building, Testing and packaging the application...
